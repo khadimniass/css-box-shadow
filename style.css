@@ -1,0 +1,27 @@
+#btn__plan{
+    display: flex;
+    position: absolute;   
+    z-index: 1;
+    justify-content: center;
+    width: calc(100% - 492px);
+    right: 0;
+    top: 10px;
+}
+
+.btn__satellite, .btn__plan{
+    padding: 10px 0;
+    width: 80px;
+    background-color: 
+white;
+    border: 1px solid var(--gray-middle);
+    box-shadow: 0 0 5px 
+rgb(49, 49, 49);
+}
+
+.btn__satellite{
+    border-radius: 50px 0 0 50px;
+    border-right: none;
+}
+.btn__plan{
+    border-radius: 0 50px 50px 0;
+}
